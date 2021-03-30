@@ -1,0 +1,134 @@
+/* div {
+  background-color: pink;
+} */
+
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+.top-container {
+  padding: 20px;
+  border: 5px;
+  margin: 10px;
+  /* background-color: pink; */
+}
+
+.bottom-container {
+  background-color: #155BF8;
+  margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Sans JP", verdana, sans-serif;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /* font-size: 90px; */
+  font-size: 5.625rem;
+  /* font-size: 562.5%; */
+  color: #155BF8;
+  /* line-height: 2; */
+}
+
+h2 {
+  /* margin-top: 0; */
+  /* font-size: 90px; */
+  font-size: 2.5rem;
+  /* font-size: 562.5%; */
+  color: #155BF8;
+}
+
+h3 {
+  color: #155BF8;
+}
+
+a {
+  color: #11999E;
+}
+
+.pro {
+  font-size: 32px
+  /* visibility: hidden; */
+}
+
+/* p {
+  display: inline-block;
+} */
+
+.body-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  bottom: 50px;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  /* vertical-align: middle; */
+}
+
+.skills-img {
+  width: 25%;
+  margin: auto 30px auto auto;
+  text-align: center;
+  float:left;
+}
+
+/* .profile-pic {
+ */
+/* } */
+
+.BUTTON_VMB {
+   background: #155BF8;
+   background-image: -webkit-linear-gradient(top, #155BF8, #2C9D9D);
+   background-image: -moz-linear-gradient(top, #155BF8, #2C9D9D);
+   background-image: -ms-linear-gradient(top, #155BF8, #2C9D9D);
+   background-image: -o-linear-gradient(top, #155BF8, #2C9D9D);
+   background-image: -webkit-gradient(to bottom, #155BF8, #2C9D9D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_VMB:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
