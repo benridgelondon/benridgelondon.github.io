@@ -86,7 +86,7 @@ a {
 
 .skill-row {
   margin: 100px auto 100px auto;
-  text-align: center;
+  /* text-align: center; */
   line-height: 2;
   width: 50%;
   /* vertical-align: middle; */
@@ -95,7 +95,7 @@ a {
 .skills-img {
   width: 25%;
   margin: auto 30px auto auto;
-  text-align: center;
+  /* text-align: center; */
   float:left;
 }
 
