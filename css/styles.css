@@ -76,13 +76,13 @@ a {
   font-weight: normal;
 }
 
-.profile {
+/* .profile {
   margin: 100px auto 100px auto;
   text-align: center;
   /* line-height: 2; */
-  width: 50%;
+  /* width: 50%; */
   /* vertical-align: middle; */
-}
+/* } */ */
 
 .skill-row {
   margin: 100px auto 100px auto;
