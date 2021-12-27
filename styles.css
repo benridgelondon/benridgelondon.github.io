@@ -1,0 +1,185 @@
+body {
+    /* margin: 0; */
+    /* padding: 3%; */
+    font-family: "montserrat", sans-serif;
+    line-height: 1.5;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+
+.row {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.colour-strip {
+  /* background-color: #46009c; */
+  background-color: #000;
+  /* background-image: linear-gradient(to right, #46009c , #000); */
+  color: #fff;
+}
+
+.dark {
+  /* background-color: #000; */
+  background-image: linear-gradient(to right, #46009c , #000);
+  color: #fff;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+}
+
+.feature {
+  text-align: center;
+}
+
+.experience {
+  text-align: center;
+}
+
+.feature .info {
+  padding-bottom: 0;
+  text-align: left;
+}
+
+/* nav {
+  width:100%;
+  overflow:auto;
+} */
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2rem;
+  padding-left: 3%;
+  /* padding-right: 5%; */
+  color: #fff;
+  vertical-align: middle;
+}
+
+.navbar-nav {
+  padding-right: 3%;
+}
+
+.carousel-item {
+  font-size: 1.3em;
+}
+
+.carousel-item .p {
+  background-color: #000;
+}
+
+h2 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+  padding: 10px;
+  line-spacing: 1.2;
+}
+
+.carousel-image {
+  padding: 20px;
+}
+
+.footer {
+  /* background-color: #46009c; */
+  background-color: #000;
+  /* background-image: linear-gradient(to bottom, #000, #46009c); */
+  color: #fff;
+  text-align: center;
+  font-size: 0.7em;
+}
+.clients {
+  background-color: #fff;
+  text-align: center;
+}
+
+#intro {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.hero {
+  font-size: 1.3em;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+col {
+  padding: 10px;
+}
+
+.skills {
+  margin-bottom: 20px;
+}
+
+form {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%
+}
+
+.form-group {
+  /* padding-left: 5%; */
+  padding-top: 1%;
+  width: 75%;
+}
+
+.button {
+  background-image: linear-gradient(to right, #46009c, #000);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px 5px;
+}
+
+ul {
+  list-style: none;
+  line-height: 300%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 10px
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.scope {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.logo img {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
