@@ -17,7 +17,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
       $(function(){
       $("#footer").load("footer.html");
@@ -26,6 +26,9 @@
     <link rel="icon"
       type="image/png"
       href="images/logo-black.png">
+
+
+
   </head>
   <body>
 
@@ -88,7 +91,7 @@
   <div class="light">
     <div class="row">
       <div class="col-12">
-        <h2 id="services">Our Expertise</h2>
+        <h2 class="services" id="services">Our Expertise</h2>
         <p>
           We provide a range of consultancy services - specialising in digital projects:
         </p>
@@ -106,23 +109,45 @@
         <p class="service1description">
           Business / Tech / Data Analysis
         </p>
+
+        <p class="serviceDetail">
+          Deep dives into business, technical and data problems.
+          Tell us your pain points and desired outcomes,
+          and we will analyse your business and technology
+          in order to define the detailed route to your goals.
+        </p>
+
       </div>
       <div class="col-md-3">
-        <img class="skills" src="images/kanban-fill.svg" style="width:20%">
-        <p>
+        <button class="service2img"></button>
+        <p class="service2description">
           Agile Product Ownership
         </p>
-      </div>
-      <div class="col-md-3">
-        <img class="skills" src="images/app-indicator.svg" style="width:20%">
-        <p>
-          Product Management
+        <p class="serviceDetail">
+           We can deliver your product roadmap by breaking it down into
+           an organised and efficient agile development plan, and working
+           with tech teams to build and iterate it into a fully formed product.
         </p>
       </div>
       <div class="col-md-3">
-        <img class="skills" src="images/calendar2-week-fill.svg" style="width:20%">
-        <p>
+        <button class="service3img"></button>
+        <p class="service3description">
+          Product Management
+        </p>
+        <p class="serviceDetail">
+          We can work with design teams and users, combined with industry research
+          and business analysis, to craft a product that delivers value, then plan
+          it's launch and assess it's success.
+        </p>
+      </div>
+      <div class="col-md-3">
+        <button class="service4img"></button>
+        <p class="service4description">
           Project / Delivery Management
+        </p>
+        <p class="serviceDetail">
+          We can build and implement a plan to get the job done - balancing time, cost
+          and quality while proactively managing risks and complex webs of dependencies.
         </p>
       </div>
     </div>
@@ -156,7 +181,7 @@
               API design & build
             </li>
             <li>
-              Data model design
+              Data model design / redesign
             </li>
             <li>
               Data migration
@@ -171,10 +196,13 @@
               </h3>
             </li>
             <li>
-              Mobile app design & build
+              Web / mobile app design & build
             </li>
             <li>
-              Web app design & build
+              New product design & integration
+            </li>
+            <li>
+              General ledger redesign & build
             </li>
             <li>
               CRM design & build
@@ -197,23 +225,26 @@
             <li>
               Platform internationalisation
             </li>
+            <li>
+              SEO strategy development
+            </li>
           </ul>
         </div>
         <div class="col-md-3">
           <ul style="list-style-type:none">
             <li>
               <h3>
-              Processes
+              Operations
               </h3>
             </li>
             <li>
-              Agile delivery
+              Agile delivery improvement
             </li>
             <li>
-              Operations
+              Process improvement
             </li>
             <li>
-              Content management
+              Content management strategy
             </li>
           </ul>
         </div>
@@ -229,7 +260,7 @@
           <h2 id="clients">Our Clients</h2>
           <hr />
         <div class="col-12">
-          <div id="carouselClients" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500" data-pause = "hover">
+          <div id="carouselClients" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2800" data-pause = "hover">
             <div class="carousel-indicators">
               <button type="button" data-bs-theme="dark" data-bs-target="#carouselClients" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselClients" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -242,9 +273,9 @@
                 <p>
                   <h3>Financial Services</h3>
                 </p>
-                <img class="carousel-image" src="images/PB1.png" style="width:20%">
-                <img class="carousel-image" src="images/VE.png" style="width:20%">
                 <img class="carousel-image" src="images/WP.png" style="width:20%">
+                <img class="carousel-image" src="images/VE.png" style="width:20%">
+                <img class="carousel-image" src="images/PB1.png" style="width:20%">
               </div>
               <div class="carousel-item">
                 <p>
@@ -309,6 +340,8 @@
           <div class="row">
             <!-- <div class="navbar-quote"> -->
             <p class="randomIntro"></p>
+            <!-- <p></p> -->
+            <!-- <button class="new-quote">Show me more</button> -->
             <!-- </div> -->
         </div>
        </div>
@@ -389,7 +422,7 @@
           </td>
         </table> -->
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
   </body>
 

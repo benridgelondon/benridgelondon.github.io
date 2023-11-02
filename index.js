@@ -16,18 +16,79 @@ function myFunction() {
   }
 }
 
+$(".serviceDetail").hide();
+
+// Get the input field
+//var input = document.getElementById("exampleFormControlTextarea1");
+
+// Execute a function when the user presses a key on the keyboard
+document.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("submit").click();
+  }
+});
 
 
 
+//SERVICE BUTTON CLICK EXPANDED TEXT
 
+//using jQuery syntax below just for experience
+//CAN ALSO ADD MULTIPLE INCL CUSTOM ANIMATION IN ONE FUNCTION E.G. see commented slideup / down and opacity below
+//
 
-    document.querySelector(".service1img").addEventListener("click", function() {
-
-      document.querySelector(".service1description").innerHTML = "<p>Business / Tech / Data Analysis</p><p>Deep dives into business, technical and data problems. Define where your pain points are, and what results or outcomes you're aiming for</p>";
-      //this.style.color = "white";
-      //makeSound(this.innerHTML);
+    $(".service1img").on("click", function() {
+      //you can add multiple classes by leaving a space between each class, within the quote marks
+      $(".service1img").addClass("pressed");
+      //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
+      $(".serviceDetail").slideToggle();
+      //$(".serviceDetail").slideDown().slideDown().animate({opacity: 0.2});
+      //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
+      setTimeout (function() {
+        $(".service1img").removeClass("pressed");
+      }, 100);
     }
   )
+
+    $(".service2img").on("click", function() {
+      $(".service2img").addClass("pressed");
+      //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
+      $(".serviceDetail").fadeToggle();
+      //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
+      setTimeout (function() {
+        $(".service2img").removeClass("pressed");
+      }, 100);
+      }
+    )
+
+  document.querySelector(".service3img").addEventListener("click", function() {
+    $(".service3img").addClass("pressed");
+    //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
+    $(".serviceDetail").slideToggle();
+    //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
+    setTimeout (function() {
+      $(".service3img").removeClass("pressed");
+    }, 100);
+
+    }
+  )
+
+  document.querySelector(".service4img").addEventListener("click", function() {
+    $(".service4img").addClass("pressed");
+    //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
+    $(".serviceDetail").fadeToggle();
+    //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
+    setTimeout (function() {
+      $(".service4img").removeClass("pressed");
+    }, 100);
+
+    }
+  )
+
+
 
 var agileQuotes = [
 
@@ -44,10 +105,20 @@ var agileQuotes = [
 ]
 
 
+// function buttonAnimation(exper) {
+//   //document.querySelector(exper).classList.Add(pressed);
+//   alert(exper);
+// }
+
 document.querySelector(".randomIntro").innerHTML = agileQuotes[Math.floor(Math.random() * agileQuotes.length)];
 
+document.querySelector(".new-quote").addEventListener("click", function() {
+  document.querySelector(".randomIntro").innerHTML = agileQuotes[Math.floor(Math.random() * agileQuotes.length)];
 
 
+  //document.querySelector(".randomIntro").innerHTML = agileQuotes[Math.floor(Math.random() * agileQuotes.length)];
+}
+)
 
 // var randomQuote = agileQuotes[Math.floor(Math.random() * 2)];
 // alert(randomQuote);
