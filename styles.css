@@ -297,6 +297,20 @@ li {
   padding-bottom: 1px;
 }
 
+.backlogThought {
+  font-size: 1rem;
+  background-color: "black";
+  font-color: "white";
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0.2;
+  line-spacing: 0.2;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
 .pressed {
   box-shadow: 0 30px 40px 0 #DBEDF3;
   opacity: 0.5;
