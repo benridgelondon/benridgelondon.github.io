@@ -40,7 +40,7 @@ document.addEventListener("keypress", function(event) {
 //CAN ALSO ADD MULTIPLE INCL CUSTOM ANIMATION IN ONE FUNCTION E.G. see commented slideup / down and opacity below
 //
 
-    $(".service1img").on("click", function() {
+    $(".service1img").on("mouseover", function() {
       //you can add multiple classes by leaving a space between each class, within the quote marks
       $(".service1img").addClass("pressed");
       //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
@@ -53,7 +53,7 @@ document.addEventListener("keypress", function(event) {
     }
   )
 
-    $(".service2img").on("click", function() {
+    $(".service2img").on("mouseover", function() {
       $(".service2img").addClass("pressed");
       //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
       $(".serviceDetail").fadeToggle();
@@ -64,7 +64,7 @@ document.addEventListener("keypress", function(event) {
       }
     )
 
-  document.querySelector(".service3img").addEventListener("click", function() {
+  $(".service3img").on("mouseover", function() {
     $(".service3img").addClass("pressed");
     //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
     $(".serviceDetail").slideToggle();
@@ -76,7 +76,7 @@ document.addEventListener("keypress", function(event) {
     }
   )
 
-  document.querySelector(".service4img").addEventListener("click", function() {
+  $(".service4img").on("mouseover", function() {
     $(".service4img").addClass("pressed");
     //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
     $(".serviceDetail").fadeToggle();
