@@ -56,7 +56,8 @@ document.addEventListener("keypress", function(event) {
     $(".service2img").on("mouseover", function() {
       $(".service2img").addClass("pressed");
       //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
-      $(".serviceDetail").fadeToggle();
+      //$(".serviceDetail").fadeToggle();
+      $(".serviceDetail").slideToggle();
       //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
       setTimeout (function() {
         $(".service2img").removeClass("pressed");
@@ -79,7 +80,7 @@ document.addEventListener("keypress", function(event) {
   $(".service4img").on("mouseover", function() {
     $(".service4img").addClass("pressed");
     //haven't used it below, as i wan't to include HTML and jquery .text doesnt accommodate. need to move content to html file anyway as variable?
-    $(".serviceDetail").fadeToggle();
+    $(".serviceDetail").slideToggle();
     //$(".service1description").after("<p class=service1Detail>Deep dives into business, technical and data problems. Define your pain points and what outcomes you're aiming for, and we will analyse your business and technology in detail in order to define the detailed route to your goals.</p>");
     setTimeout (function() {
       $(".service4img").removeClass("pressed");
