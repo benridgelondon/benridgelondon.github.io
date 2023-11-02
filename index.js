@@ -128,6 +128,16 @@ var backlogThoughts = [
 "How could the team's velocity become more meaningful to them, to you and to the stakehholders?",
 "Assume you are going to make some mistakes. How could you make those mistakes cheaper, faster and easier to recover from?",
 "If you knew you had half or twice as much time left on this project as you previously thought, what would you do differently?",
+"If you were forced to prioritise your non-functional constraints, in what order would you prioritise them?",
+"Could you make your product backlog more aligned to the INVEST principles?",
+"What is the optimum number of projects for you to be working on at any one point in time? How many are you working on now?",
+"Would you rather have one thing complete or three things started but not finished?",
+"What themes are there in my product backlog that I could use to organise it more effectively?",
+"How closely aligned is the prioritisation of your product backlog to the strategy of the organisation as a whole?",
+"If you had to cut 10% of your product backlog, which items would you remove?",
+"Do you have a roadmap in your mind for how the development of the product might go over the next 6-18 months? Are others aware of this?",
+"Are your release metrics simple enough to understand, comprehensive enough to show the big picture, and accurate enough to be useful without inferring unrealistic precision?",
+
 ]
 
 
